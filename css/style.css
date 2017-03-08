@@ -27,14 +27,16 @@ nav {
 
 section {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     width: 100%;
-    height: 600px;
+    height: 1200px;
+    box-sizing: border-box;
 }
 article {
     order: 2;
     flex: 3;
     background-color: #BCD39B;
+    box-sizing: border-box;
 }
 
 
@@ -51,20 +53,22 @@ footer {
 
 .container {
 	background: pink;
-	box-sizing: border-box;
+
 
 }
 
 .question {
 	background: red;
-	width: 125px;
-	height: 125px;
+	width: 100%;
+	height: 100px;
+
 }
 
 .answer {
 	background: blue;
 	width: 100%;
-	height: 100%;
+	height: 10%;
+
 }
 
 
