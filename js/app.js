@@ -6,19 +6,19 @@ function myFunction() {
     var promptAnswer = prompt("Hello, would you like to play Trivia Game, please input 'Yes' or 'No' ");
     	promptAnswer = promptAnswer.toUpperCase();
     	if (promptAnswer === 'YES') {
-
-    	   userName("josh");
-
+    	   userName();
       } else if (promptAnswer === 'NO') {
     	   alert('Goodbye');//Done.
       } else {
-      	//Left blank on purpose.
+
     }
 };
 
-var userName = function(inputName){//Done.
-	 if (inputName !== '') {
-	 	alert('Hello, ' + inputName);
+var userName = function(x){//Done.
+	var promptUserName = prompt("What is your name?");
+	promptUserName = promptUserName.toUpperCase();
+	 if (promptUserName !== '') {
+	 	alert('Hello, ' + promptUserName);
     	startGame();
 	 } else {
 	    alert('Thanks for stopping by!');
