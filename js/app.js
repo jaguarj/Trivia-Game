@@ -7,14 +7,12 @@ function myFunction() {
     	promptAnswer = promptAnswer.toUpperCase();
     	if (promptAnswer === 'YES') {
 
-    	   userName('josh');
+    	   userName("josh");
 
       } else if (promptAnswer === 'NO') {
-
-    	   alert('Goodbye');
-
+    	   alert('Goodbye');//Done.
       } else {
-
+      	//Left blank on purpose.
     }
 };
 
