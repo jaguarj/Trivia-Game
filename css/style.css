@@ -1,4 +1,4 @@
-* {
+/** {
 	border: 1px solid black;
 }
 
@@ -7,70 +7,120 @@
  margin: 0 auto;
  background: lightblue;
 }*/
-h1, h2 {
+/*h1, h2 {
  text-align: center;
-}
-p {
+}*/
+/*p {
   text-align: left;
-}
-header {
+}*/
+/*header {
     background-color: #ffa;
     padding: 5px;
 
-}
+}*/
 
-nav {
+/*nav {
     order: 1;
     flex: 1;
     background-color: #CE9B64;
-}
+}*/
 
-section {
+/*section {
     display: flex;
     /*flex-wrap: wrap;*/
-    width: 100%;
+/*    width: 100%;
     height: 1200px;
     box-sizing: border-box;
-}
-article {
+}*/
+/*article {
     order: 2;
     flex: 3;
     background-color: #BCD39B;
     box-sizing: border-box;
 }
+*/
 
-
-.gameBoard {
+/*.gameBoard {
 	width: 100vw;
 	height: 100vh;
 	background: red;
-}
+}*/
 
-footer {
-	background: gold;
-	height: 100px;
-}
-
-.container {
+/*.container {
 	background: pink;
 
 
-}
+}*/
 
-.question {
+/*.question {
 	background: red;
 	width: 100%;
 	height: 100px;
 
-}
+}*/
 
-.answer {
+/*.answer {
 	background: blue;
 	width: 100%;
 	height: 10%;
 
 }
+*/
 
+/*body{
+	text-align: center;
+}
+
+h1 {
+	color: white;
+
+}
+
+div {
+	display: inline-block;
+	background-color: blue;
+	height: 60px;
+
+}*/
+
+body {
+
+  text-align: center;
+  max-width: auto;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  background: yellow;
+  margin-top: 0px;
+  padding: 5px 0px 5px 0px;
+
+  letter-spacing: .8em;
+  /*text-shadow: 2px 2px 4px #108f8b;*/
+}
+a {
+	text-decoration: none;
+}
+
+div {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #108f8b;  /* Try a diffent color. */
+  padding: 12px;
+  width: 15%;
+  color: black;
+  height: 60px;
+  border-radius: 10px;
+  /*border: 3px solid;*/
+  /*border-style: double;*/
+  margin-left: 4px;
+  margin-top: 4px;
+}
 
 
     /* mobile layout */
@@ -81,12 +131,10 @@ footer {
             width: 100%;
         flex-direction: column;
         }
-        article { order: 2; }
-        nav     { order: 1; }
-      aside   { order: 3; }
+
     }
 
-.navButton {
+/*.navButton {
 	height: 50px;
 	width: 100%;
 }
@@ -98,5 +146,5 @@ footer {
 
 #noButton {
 	background:red;
-}
+}*/
 
