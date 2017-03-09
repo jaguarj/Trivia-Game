@@ -1,7 +1,7 @@
 window.onload = function() {
 
 console.log("We're all good here!");
-
+}
 
 // console.log("This is working!");
 // function acknowledgeUser () {
@@ -29,15 +29,28 @@ console.log("We're all good here!");
 
 
 // createGame();
+document.getElementById("newPlayer").addEventListener('click', newPlayer);
+
 ///////////////////////////////////////////////////////////////////
-var newPlayer = prompt("Hello, would you like to play Trivia Game?").toLowerCase();
-	if (newPlayer == "yes"){
+function newPlayer(){
+
+		console.log('was clicked');
+	    var promptAnswer = prompt("Hello, would you like to play Trivia Game?").toLowerCase();
+
+	  if (promptAnswer == "yes") {
 		alert("Nice, let's do it!");
+		newGame();
 	} else {
+
 		alert("See you next time!")
 		return;
 	}
-// newPlayer = newPlayer.toLowerCase();
+};
+//Good here.
+// document.getElementById("newPlayer").addEventListener('click', newPlayer);
+
+var newGame = function() {
+
 
 
 	var correctAnswers = 0;
@@ -153,11 +166,14 @@ var newPlayer = prompt("Hello, would you like to play Trivia Game?").toLowerCase
 	      alert("Good job! You have " + correctAnswers + " points.");
 	      //
 	    }
+
 	    else {
 	      correctAnswers -=parseInt(points)
 	      alert("Sorry, that's wrong. You have " + correctAnswers + " points now.");
 	    }
+
 	  })
+
 	  div.addEventListener("mouseover", changeBackgroundToBlue);
 	    function changeBackgroundToBlue (){
 	      this.style.backgroundColor = "yellow";
@@ -168,9 +184,9 @@ var newPlayer = prompt("Hello, would you like to play Trivia Game?").toLowerCase
 	  }
 	  document.body.appendChild(div);
 	}
+}// newGame function ending bracket.
 
-
-	}//End bracket of window.onload.
+//End bracket of window.onload.
 
 
 
