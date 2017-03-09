@@ -1,4 +1,4 @@
 # Trivia-Game
 
-*"Trivia Game"* is, of course, a trivia game based off the traditional game *"Jeopardy"* but with a more *unusual* set of culture questions to keep players laughing and engaged with the ethos in the community we live.
+*"Trivia Game"* is, of course, a trivia game based off the traditional game *"Jeopardy"* but with a more *unusual* set of culture questions to keep players laughing and engaged.
 
