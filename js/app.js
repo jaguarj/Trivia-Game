@@ -47,7 +47,7 @@ var newPlayer = prompt("Hello, would you like to play Trivia Game?").toLowerCase
 	  {value: "Music"},
 	  {value: "Name the Movie"},
 	  {value: "Food"},
-	  {value: "Countries"},
+
 
 	  {question: "Keytar cornhole vinyl live-edge blog.",//Done.
 	  answer: "Hipster",

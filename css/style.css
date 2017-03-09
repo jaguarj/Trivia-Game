@@ -83,7 +83,7 @@ div {
 
 }*/
 
-body {
+/*body {
 
   text-align: center;
   max-width: auto;
@@ -101,38 +101,36 @@ h1 {
   letter-spacing: .8em;
   /*text-shadow: 2px 2px 4px #108f8b;*/
 }
-a {
+/*a {
 	text-decoration: none;
 }
 
 div {
-  display: block;
+  display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   text-align: center;
-  background-color: #108f8b;  /* Try a diffent color. */
+  background-color: #108f8b;
   padding: 12px;
   width: 15%;
   color: black;
   height: 60px;
   border-radius: 10px;
-  /*border: 3px solid;*/
-  /*border-style: double;*/
   margin-left: 4px;
   margin-top: 4px;
-}
+}*/
 
 
     /* mobile layout */
     /* @media (max-width: 480px) { */
-    @media only screen and (max-width: 520px) {
+   /* @media only screen and (max-width: 520px) {
         section {
             display: flex;
             width: 100%;
         flex-direction: column;
         }
 
-    }
+    }*/
 
 /*.navButton {
 	height: 50px;
