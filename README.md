@@ -14,6 +14,7 @@
 * Google Fonts
 * Sublime Text 3
 * CLI
+* Photoshop
 * Trello
 
 
