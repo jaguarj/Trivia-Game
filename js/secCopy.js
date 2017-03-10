@@ -7,7 +7,9 @@ console.log("We're all good here!");
 
 // createGame();
 document.getElementById("newPlayer").addEventListener('click', newPlayer);// Function starts game.
-
+$('#resetButton').click(function() {
+	location.reload();
+});
 ///////////////////////////////////////////////////////////////////
 function newPlayer(){
 
@@ -50,82 +52,82 @@ var questions = [// Array of nested objects. Arrays start at '0'.
 	value: 4000},
 
 	],
-		// Music
+		// Clasic Punk Music
 	[
 
 	  	// questions[1][0]
-	{question: "He won a Grammy for 'Best Pop Vocal Album' in 2015.",
-	answer: "Sam Smith",
+	{question: "The hit song, Boys Don't Cry, was written by what band? ",
+	answer: "The Cure",
 	value: 1000},
 
 	// questions[1][1]
-	{question: "In 2015, this artist performed during the Superbowl half time show.",
-	answer: "Katy Perry",
+	{question: "The Undertones are best known for what song?.",
+	answer: "Teenage Kicks",
 	value: 2000},
 
 	// questions[1][2]
-	{question: "This artist's real name is Stacy Ferguson.",
-	answer: "Fergie",
+	{question: "Kola Kola, Clampdown and Spanish Bombs are songs written by this British band?",
+	answer: "The Clash",
 	value: 3000},
 
 	// questions[1][3]
-	{question: "Rihanna and Kanye West recorded the song 'FourFiveSeconds' with this legendary English songwriter.",
-	answer: "Paul McCartney",
+	{question: "The lead singer of the Buzzcocks, Howard Devoto, also fronted what other band?.",
+	answer: "Magazine",
 	value: 4000},
 
 
 	],
-		// Movies
+		// Witty quotes
 	[
 
 	// questions[2][0]
-	{question: " 'To infinity and beyond...' ",
-	answer: "Toy Story",
+	{question: " Give a man a match, and he'll be warm for a minute, but set him on fire, and he'll be warm for the rest of his _____. ",
+	answer: "life",
 	value: 1000},
 
 	// questions[2][1]
-	{question: "Tom Cruise said 'show me the money' in this 1996 film.",
-	answer: "Jerry Maguire",
+	{question: "When people talk to God, it's called prayer. When God talks back, it's called ________.",
+	answer: "schizophrenia",
 	value: 2000},
 
 	// question[2][2]
-	{question: " 'Mama always said life was like a box of chocolates. You never know what you're gonna get.' ",
-	answer: "Forrest Gump",
+	{question: "Don't sweat the petty things, and don't _____ the sweaty things! ",
+	answer: "pet",
 	value: 3000},
 
 	// question[2][3]
-	{question: " 'This is Sparta!' ",
-	answer: 300,
+	{question: "Everyone must believe in something. I believe I'll have another _____. ",
+	answer: "drink",
 	value: 4000},
 
 
 	],
 
-	//Food
+	//Nerdy Stuff
 
 	[
 	// question[3][0]
 
-	{question: "To be embarrased is to have this 'on one\'s face'.",
-	answer: "Egg",
+	{question: "How many bits was the Nintendo 64?",
+	answer: "64",
 	value: 1000},
 
 	// questions[3][1]
 
-	{question: "Hot out of the oven is one of these stuffed pizza turnovers of Naples.",
-	answer: "Calzone",
+	{question: "True or false? Is Samus from Metroid a woman?",
+	answer: "true",
 	value: 2000},
 
 	// question[3][2]
 
-	{question: "This is believed to be the only food that never spoils.",
-	answer: "Honey",
+	{question: "What fraternity do the nerds join in the first Revenge of the Nerds film?",
+	answer: "Lambda Lambda Lambda",
 	value: 3000},
 
 	// question[3][3]
 
-	{question: "Some recipes for this sweet treat call for beets instead of food coloring.",
-	answer: "Red Velvet Cake",
+	{question: "A hobbit is also know as a what?",
+	answer: "halfling",
 	value: 4000},
 
 	]
@@ -149,13 +151,13 @@ var newGame = function() {			//Created 'for loop' to dynamically create  all que
 				colDiv.html('Ipsum');//This is just naming the columns of [i];
 				break;
 			case 1:
-				colDiv.html('Music');
+				colDiv.html('Classic Punk Rock');
 				break;
 			case 2:
-				colDiv.html('Movies');
+				colDiv.html('Witty Quotes');
 				break;
 			case 3:
-				colDiv.html('Food');
+				colDiv.html('Nerdy Stuff');
 				break;
 
 		};

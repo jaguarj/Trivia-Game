@@ -20,13 +20,13 @@
     <body>
     	<nav class="navbar navbar-inverse navbar-fixed-top">
 
-	    		<div class="container-fluid">
+	    		<div id="navTop" class="container-fluid">
 
 	    			<div class="navbar-header">
 
-	    				<a class="navbar-brand" href="#">Trivia Game</a>
+	    				<a id="TriviaButton" class="navbar-brand" href="#">Trivia Game</a>
 	    				<a id="newPlayer" class="navbar-brand" href="#">Play<span class="glyphicon glyphicon-chevron-right-sm"><span></a>
-	 					<a class="navbar-brand" href="#">Reset</a>
+	 					<a id="resetButton" class="navbar-brand" href="#">Reset</a>
 
 	    			</div>
 
@@ -40,6 +40,7 @@
 
 	    	<h1>Trivia Game</h1>
 	    	<p>The trivia game for people who love to laugh!</p>
+	    	<h5>Player Score: <span id="playerScore"></span></h5>
 
 		    </div><!-- Jumbotron -->
 		</div><!-- Container-fluid 1 -->
@@ -47,7 +48,7 @@
 
 		<div id="score" class="container-fluid"><!-- Container-fluid 1 -->
 
-			<h5>Player Score: <span id="playerScore"></span></h5>
+
 
 		</div>
 
