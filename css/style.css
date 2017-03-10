@@ -100,12 +100,12 @@ h1 {
 
   letter-spacing: .8em;
   /*text-shadow: 2px 2px 4px #108f8b;*/
-}
-/*a {
+/*}
+a {
 	text-decoration: none;
-}
+}*/
 
-div {
+/*div {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
@@ -119,7 +119,27 @@ div {
   margin-left: 4px;
   margin-top: 4px;
 }*/
+.newDiv {
+	display: inline-block;
+	width: 100px;
+	backgrond: pink;
 
+}
+
+#score {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#playerScore {
+
+
+}
+
+.jumbotron {
+
+	background: yellow;
+}
 
     /* mobile layout */
     /* @media (max-width: 480px) { */

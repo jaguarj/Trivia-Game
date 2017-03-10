@@ -147,8 +147,12 @@ var newGame = function() {
 	]//End of array of objects.
 
 //For loop loops through the arrary of objects and creates divs.
-	for (var i = 0; i < questions.length; i++) {
+	for (var i = 1; i < questions.length + 1; i++) {
 	  var div = document.createElement("div");
+	  div.className += "newDiv";
+	  // var colI = $(`#col${i}`);
+	  console.log(`#col${i}`);
+	  // div.appendChild(colI);
 
 //div.textContent to inject questions.
 	  div.textContent = questions[i].value;//Here is where the topics are.
