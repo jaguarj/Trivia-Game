@@ -19,7 +19,8 @@
 * Trello
 
 ## Books
-* Color Index - #### Jim Krause
+* Color Index
+## - Jim Krause
 
 
 ##Wireframes
