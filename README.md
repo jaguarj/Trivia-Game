@@ -19,3 +19,7 @@
 ## Trello Link
  (https://trello.com/b/BJvET3uK/trivia-game)
 
+##Trivia Game Link
+
+(https://jaguarj.github.io/Trivia-Game/)
+
