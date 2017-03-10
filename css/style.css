@@ -14,6 +14,7 @@
 
 	background: cover;
 	height: 100vh;
+	min-height: 1000px;
 
 }
 
@@ -51,6 +52,7 @@
 #TriviaButton {
     color: white;
     transition: all .2s ease-in-out;
+    letter-spacing: .01em;
 
 }
 
@@ -140,25 +142,26 @@ div {
 
 
 div#col0.col-lg-3 div {
-
+	transition: all .6s ease-in-out;
 	margin: .5em 0;
-	background: rgba();
+	/*background: rgba();*/
 	/*border-radius: 1px;*/
 	height: 100px;
 	padding-top: 20px;
-	border-radius: 10px;
+	border-radius: 40px;
 	font-size: 40px;
 }
 
 div#col0.col-lg-3 div:hover {
-
+	transition: all .4s ease-in-out;
 	margin: .5em 0;
-	background: blue;
-	/*border-radius: 1px;*/
+	background: rgba(100, 96, 170, .5);
+	color: rgba(243, 112, 33, 1);
 	height: 100px;
 	padding-top: 20px;
 	border-radius: 10px;
-	font-size: 40px;
+	font-size: 50px;
+	border-radius: 50px;
 }
 
 
@@ -166,28 +169,75 @@ div#col0.col-lg-3 div:hover {
 
 
 div#col1.col-lg-3 div {
-	border-radius: 10px;
+	transition: all .6s ease-in-out;
+	margin: .5em 0;
+	background: rgba();
+	/*border-radius: 1px;*/
 	height: 100px;
-	padding-top: 40px;
+	padding-top: 20px;
+	border-radius: 40px;
 	font-size: 40px;
 }
+
+div#col1.col-lg-3 div:hover {
+	transition: all .4s ease-in-out;
+	margin: .5em 0;
+	background: rgba(100, 96, 170, .5);
+	color: rgba(243, 112, 33, 1);
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 50px;
+	border-radius: 50px;
+}
+
 
 div#col2.col-lg-3 div {
-
-	border-radius: 1px;
+	transition: all .6s ease-in-out;
+	margin: .5em 0;
+	background: rgba();
+	/*border-radius: 1px;*/
 	height: 100px;
-	padding-top: 40px;
+	padding-top: 20px;
+	border-radius: 40px;
 	font-size: 40px;
 }
+div#col2.col-lg-3 div:hover {
+	transition: all .4s ease-in-out;
+	margin: .5em 0;
+	background: rgba(100, 96, 170, .5);
+	color: rgba(243, 112, 33, 1);
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 50px;
+	border-radius: 50px;
+}
+
 
 div#col3.col-lg-3 div {
-
-	border-radius: 1px;
+	transition: all .6s ease-in-out;
+	margin: .5em 0;
+	background: rgba();
+	/*border-radius: 1px;*/
 	height: 100px;
-	padding-top: 40px;
+	padding-top: 20px;
+	border-radius: 40px;
 	font-size: 40px;
+
 }
 
+div#col3.col-lg-3 div:hover {
+	transition: all .4s ease-in-out;
+	margin: .5em 0;
+	background: rgba(100, 96, 170, .5);
+	color: rgba(243, 112, 33, 1);
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 50px;
+	border-radius: 50px;
+}
 
 
     /* mobile layout */
