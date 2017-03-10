@@ -7,9 +7,15 @@
 
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * jQuery
 * GitHub
+* Google Fonts
+* Sublime Text 3
+* CLI
+* Trello
+
 
 ##Wireframes
 [Wireframe 1] (https://github.com/jaguarj/Trivia-Game/blob/master/Wireframes/Wireframe_1.jpg)
