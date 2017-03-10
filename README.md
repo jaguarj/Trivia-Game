@@ -15,7 +15,11 @@
 * Sublime Text 3
 * CLI
 * Photoshop
+* Adobe Kuler
 * Trello
+
+## Books
+* Color Index - #### Jim Krause
 
 
 ##Wireframes
