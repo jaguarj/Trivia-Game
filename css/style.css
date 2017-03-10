@@ -1,20 +1,43 @@
+ * {
+ 	/*border: 1px solid black;*/
+
+ }
 
  body {
-background: rgb(100, 96, 170);
+	font-family: 'Raleway', sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f37021+0,73cee2+100 */
+	background: rgb(243,112,33); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgba(243,112,33,1) 0%, rgba(115,206,226,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgba(243,112,33,1) 0%,rgba(115,206,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgba(243,112,33,1) 0%,rgba(115,206,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f37021', endColorstr='#73cee2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	background: cover;
+	height: 100vh;
+
 }
 
 .jumbotron {
-	/*background: rgba(243, 112, 33, .5);*/
 
-	background: linear-gradient(45deg,  rgb(243,112,33) 0%,rgb(100,206,226) 100%);
+	background: rgba(100, 96, 170, .3);
 	box-shadow: 0px 0px 20px 1px #000;
 	color: white;
-	letter-spacing: .06em;
+	letter-spacing: .08em;
+	transition: all .9s ease-in-out;
+
+}
+
+
+.jumbotron:hover {
+
+	background: rgba(100, 96, 175, .4);
+
+	transition: all .9s ease-in-out;
 
 }
 #navTop {
 	background: rgba(100, 96, 170, .1);
-	transition: all 1s ease-in-out;
+	transition: all .9s ease-in-out;
 
 
 }
@@ -22,8 +45,19 @@ background: rgb(100, 96, 170);
 #navTop:hover {
 	background: rgba(100, 96, 170, .5);
 	box-shadow: 0px 0px 30px 1px #000;
-	transition: all 1s ease-in-out;
 
+}
+
+#TriviaButton {
+    color: white;
+    transition: all .2s ease-in-out;
+
+}
+
+#TriviaButton:hover {
+	color: rgb(243, 112, 33);
+	transition: all .05s ease-in-out;
+	letter-spacing: .03em;
 }
 
 #newPlayer {
@@ -34,18 +68,7 @@ background: rgb(100, 96, 170);
 #newPlayer:hover {
 	color: rgb(243, 112, 33);
 	transition: all .05s ease-in-out;
-}
-
-
-#TriviaButton {
-    color: white;
-    transition: all .2s ease-in-out;
-
-}
-
-#TriviaButton:hover {
-	color: rgb(243, 112, 33);
-	transition: all .1s ease-in-out;
+	letter-spacing: .03em;
 }
 
 #resetButton {
@@ -57,12 +80,30 @@ background: rgb(100, 96, 170);
 #resetButton:hover {
 	color: rgb(243, 112, 33);
 	transition: all .2s ease-in-out;
+	letter-spacing: .03em;
+
 }
 
 #score {
-	display: flex;
-	justify-content: center;
+	color: white;
+	transition: all .2s ease-in-out;
 }
+#score:hover {
+	color: red;
+	transition: all .2s ease-in-out;
+}
+
+
+#playerScore {
+	color: white;
+	transition: all .4s ease-in-out;
+}
+
+#playerScore:hover {
+	color: red;
+	transition: all .2s ease-in-out;
+}
+
 
 h5 {
 	color: white;
@@ -78,26 +119,73 @@ h5 {
 
 div {
 	text-align: center;
-
-
-
 }
 
 .col-lg-3 {
 
-	color: blue;
-	background: white;
-	border-radius: 20px;
 
+    font-family: 'Hammersmith One', sans-serif;
+	padding-top: 10px;
+	color: rgb(100, 96, 170);
+	border-radius: 20px;
+	height: auto;
+	font-size: 30px;
+	font-weight: bold 700;
 }
 
-.col-lg-3:hover {
+/*.col-lg-3:hover {
+	color: black;
 
-	color: blue;
-	background: orange;
-	border-radius: 20px;
-	height: 200px;
+}*/
 
+
+div#col0.col-lg-3 div {
+
+	margin: .5em 0;
+	background: rgba();
+	/*border-radius: 1px;*/
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 40px;
+}
+
+div#col0.col-lg-3 div:hover {
+
+	margin: .5em 0;
+	background: blue;
+	/*border-radius: 1px;*/
+	height: 100px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 40px;
+}
+
+
+
+
+
+div#col1.col-lg-3 div {
+	border-radius: 10px;
+	height: 100px;
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+div#col2.col-lg-3 div {
+
+	border-radius: 1px;
+	height: 100px;
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+div#col3.col-lg-3 div {
+
+	border-radius: 1px;
+	height: 100px;
+	padding-top: 40px;
+	font-size: 40px;
 }
 
 
