@@ -17,9 +17,10 @@
 [Wireframe 3] (https://github.com/jaguarj/Trivia-Game/blob/master/Wireframes/Wireframe_3.jpg)
 
 ## Trello Link
- (https://trello.com/b/BJvET3uK/trivia-game)
+
+https://trello.com/b/BJvET3uK/trivia-game
 
 ##Trivia Game Link
 
-(https://jaguarj.github.io/Trivia-Game/)
+https://jaguarj.github.io/Trivia-Game/
 
