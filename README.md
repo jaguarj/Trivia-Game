@@ -10,6 +10,7 @@
 * Bootstrap
 * JavaScript
 * jQuery
+* Git
 * GitHub
 * Google Fonts
 * Sublime Text 3
