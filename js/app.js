@@ -55,16 +55,29 @@ var newGame = function() {
 
 	var correctAnswers = 0;
 	var questions = [
+	  //ipsum array
+	  [
+	  		// questions[0][0]
+		  {question: "Keytar cornhole vinyl live-edge blog.",//Done.
+		  answer: "Hipster",
+		  value: 1000},
 
+		  {question: "Sausage bacon short ribs venison turducken.",//Done.
+		   answer: "Bacon",
+		   value: 2000},
+
+
+
+	  ]
 	  {value: "Ipsum"},
 	  {value: "Music"},
 	  {value: "Name the Movie"},
 	  {value: "Food"},
 
 
-	  {question: "Keytar cornhole vinyl live-edge blog.",//Done.
-	  answer: "Hipster",
-	  value: 1000},
+	  // {question: "Keytar cornhole vinyl live-edge blog.",//Done.
+	  // answer: "Hipster",
+	  // value: 1000},
 
 	  {question: "He won a Grammy for 'Best Pop Vocal Album' in 2015.",
 	   answer: "Sam Smith",
@@ -83,9 +96,9 @@ var newGame = function() {
 	   value: 1000},
 ////////////////////////////////////////////////////////////////////////////////
 
-	  {question: "Sausage bacon short ribs venison turducken.",//Done.
-	   answer: "Bacon",
-	   value: 2000},
+	  // {question: "Sausage bacon short ribs venison turducken.",//Done.
+	  //  answer: "Bacon",
+	  //  value: 2000},
 
 	  {question: "In 2015, this artist performed during the Superbowl half time show.",
 	   answer: "Katy Perry",
@@ -147,7 +160,7 @@ var newGame = function() {
 	]//End of array of objects.
 
 //For loop loops through the arrary of objects and creates divs.
-	for (var i = 1; i < questions.length + 1; i++) {
+	for (var i = 0; i < questions.length; i++) {
 	  var div = document.createElement("div");
 	  div.className += "newDiv";
 	  // var colI = $(`#col${i}`);
