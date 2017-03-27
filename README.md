@@ -25,7 +25,9 @@
 
 ## Wireframes
 [Wireframe 1] (https://github.com/jaguarj/Trivia-Game/blob/master/Wireframes/Wireframe_1.jpg)
+
 [Wireframe 2] (https://github.com/jaguarj/Trivia-Game/blob/master/Wireframes/Wireframe_2.jpg)
+
 [Wireframe 3] (https://github.com/jaguarj/Trivia-Game/blob/master/Wireframes/Wireframe_3.jpg)
 
 ## Trello Link
