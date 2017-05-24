@@ -14,7 +14,7 @@ $('#resetButton').click(function() {
 function newPlayer(){
 
 	console.log('was clicked');
-	var promptAnswer = prompt("Hello, would you like to play Trivia Game?").toLowerCase();
+	var promptAnswer = prompt("Hello, would you like to play Trivia Game?").toLowerCase(console.log("hello?"));
 
 	  if (promptAnswer == "yes") {
 		alert("Nice, let's do it!");
@@ -174,6 +174,8 @@ var newGame = function() {			//Created 'for loop' to dynamically create  all que
 
 			}
 
+			// setTimeout(function(){ alert("Hello"); }, 3000);
+
 	}
 
 };
@@ -186,7 +188,8 @@ function clickedQuestion(){
 	var points = parseInt($(this).attr('value'));//ParseInt string to points.
 
 
-		if (userName ===($(this).attr('answer'))) {
+
+		if (userName ===($(this).attr('answer').toLowerCase())) {
 			console.log('If statement...');
 			playerScore += points;//Append player's score to score var.
 		} else {
