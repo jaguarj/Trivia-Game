@@ -1,47 +1,31 @@
- * {
- 	/*border: 1px solid black;*/
-
- }
-
  body {
 	font-family: 'Raleway', sans-serif;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f37021+0,73cee2+100 */
 	background: rgb(243,112,33); /* Old browsers */
 	background: -moz-linear-gradient(45deg,  rgba(243,112,33,1) 0%, rgba(115,206,226,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg,  rgba(243,112,33,1) 0%,rgba(115,206,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(45deg,  rgba(243,112,33,1) 0%,rgba(115,206,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f37021', endColorstr='#73cee2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 	background: cover;
 	height: 100vh;
 	min-height: 1000px;
-
-
 }
 
 .jumbotron {
-
 	background: rgba(100, 96, 170, .3);
 	box-shadow: 0px 0px 20px 1px #000;
 	color: white;
 	letter-spacing: .08em;
 	transition: all .9s ease-in-out;
-
 }
-
 
 .jumbotron:hover {
-
 	background: rgba(100, 96, 175, .4);
-
 	transition: all .9s ease-in-out;
-
 }
+
 #navTop {
 	background: rgba(100, 96, 170, .1);
 	transition: all .9s ease-in-out;
-
-
 }
 
 #navTop:hover {
@@ -75,16 +59,14 @@
 }
 
 #resetButton {
-    color: white;
-    transition: all .2s ease-in-out;
-
+	color: white;
+	transition: all .2s ease-in-out;
 }
 
 #resetButton:hover {
 	color: rgb(243, 112, 33);
 	transition: all .2s ease-in-out;
 	letter-spacing: .03em;
-
 }
 
 #score {
@@ -96,7 +78,6 @@
 	transition: all .2s ease-in-out;
 }
 
-
 #playerScore {
 	color: white;
 	transition: all .4s ease-in-out;
@@ -107,27 +88,17 @@
 	transition: all .2s ease-in-out;
 }
 
-
 h5 {
 	color: white;
 	font-size: 2em;
-
 }
-
-/*div.row {
-	padding: 30px;
-	text-align: center;
-}*/
-
 
 div {
 	text-align: center;
 }
 
 .col-lg-3 {
-
-
-    font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Hammersmith One', sans-serif;
 	padding-top: 10px;
 	color: rgb(100, 96, 170);
 	border-radius: 20px;
@@ -136,24 +107,16 @@ div {
 	font-weight: bold 700;
 }
 
-/*.col-lg-3:hover {
-	color: black;
-
-}*/
-
-
-div#col0.col-lg-3 div {
+#col0.col-lg-3 div {
 	transition: all .6s ease-in-out;
 	margin: .5em 0;
-	/*background: rgba();*/
-	/*border-radius: 1px;*/
 	height: 100px;
 	padding-top: 20px;
 	border-radius: 40px;
 	font-size: 40px;
 }
 
-div#col0.col-lg-3 div:hover {
+#col0.col-lg-3 div:hover {
 	transition: all .4s ease-in-out;
 	margin: .5em 0;
 	background: rgba(100, 96, 170, .5);
@@ -165,11 +128,7 @@ div#col0.col-lg-3 div:hover {
 	border-radius: 50px;
 }
 
-
-
-
-
-div#col1.col-lg-3 div {
+#col1.col-lg-3 div {
 	transition: all .6s ease-in-out;
 	margin: .5em 0;
 	background: rgba();
@@ -180,7 +139,7 @@ div#col1.col-lg-3 div {
 	font-size: 40px;
 }
 
-div#col1.col-lg-3 div:hover {
+#col1.col-lg-3 div:hover {
 	transition: all .4s ease-in-out;
 	margin: .5em 0;
 	background: rgba(100, 96, 170, .5);
@@ -192,8 +151,7 @@ div#col1.col-lg-3 div:hover {
 	border-radius: 50px;
 }
 
-
-div#col2.col-lg-3 div {
+#col2.col-lg-3 div {
 	transition: all .6s ease-in-out;
 	margin: .5em 0;
 	background: rgba();
@@ -203,7 +161,8 @@ div#col2.col-lg-3 div {
 	border-radius: 40px;
 	font-size: 40px;
 }
-div#col2.col-lg-3 div:hover {
+
+#col2.col-lg-3 div:hover {
 	transition: all .4s ease-in-out;
 	margin: .5em 0;
 	background: rgba(100, 96, 170, .5);
@@ -215,20 +174,17 @@ div#col2.col-lg-3 div:hover {
 	border-radius: 50px;
 }
 
-
-div#col3.col-lg-3 div {
+#col3.col-lg-3 div {
 	transition: all .6s ease-in-out;
 	margin: .5em 0;
 	background: rgba();
-	/*border-radius: 1px;*/
 	height: 100px;
 	padding-top: 20px;
 	border-radius: 40px;
 	font-size: 40px;
-
 }
 
-div#col3.col-lg-3 div:hover {
+#col3.col-lg-3 div:hover {
 	transition: all .4s ease-in-out;
 	margin: .5em 0;
 	background: rgba(100, 96, 170, .5);
@@ -239,42 +195,4 @@ div#col3.col-lg-3 div:hover {
 	font-size: 50px;
 	border-radius: 50px;
 }
-/*div.row {
-
-	width: 300px;
-	 height: 100px;
-	 frameborder:0;
-	 allowtransparency: true;
-	z-index: -1;
-	/*max-height: 10px;*/
-	/*margin-bottom: 10px;*/
-/*}*/
-/*iframe {
-	height: 70px;
-}*/
-
-    /* mobile layout */
-    /* @media (max-width: 480px) { */
-/*    @media only screen and (max-width: 520px) {
-        section {
-            display: flex;
-            width: 100%;
-        flex-direction: column;
-        }
-
-    }*/
-
-/*.navButton {
-	height: 50px;
-	width: 100%;
-}
-
-#yesButton {
-	background: green;
-
-}
-
-#noButton {
-	background:red;
-}*/
 
